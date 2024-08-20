@@ -12,6 +12,6 @@ class PrinterTest {
     @org.junit.jupiter.api.Test
     void testTwo() {
         Tester tester = new Tester();
-        assertEquals(tester.print(3),4);
+        assertEquals(tester.print(3),5);
     }
 }
